@@ -1,0 +1,12 @@
+{
+  "name": "expense-manager",
+  "version": "0.0.1",
+  "description": "Expense manager api",
+  "main": "server.js",
+  "author": "Sachin Saini",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
+  }
+}
