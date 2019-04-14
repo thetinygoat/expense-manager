@@ -1,5 +1,4 @@
 let config = module.exports;
-const PRODUCTION = process.env.NODE_ENV === 'production';
 
 config.express = {
 	port: process.env.PORT || 8080,
