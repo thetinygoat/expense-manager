@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-
+const Expense = require('./expense/model');
 app.use(express.json());
 // set CORS headers
 app.use((req, res, next) => {
